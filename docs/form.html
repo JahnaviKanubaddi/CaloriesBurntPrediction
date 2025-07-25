@@ -35,10 +35,16 @@
       <input type="submit" value="Predict Calories Burnt">
     </form>
   </div>
-  <script>
-    <button onclick="window.location.href='result.html'">Predict Calories Burnt</button>
+ <!-- In HTML -->
+<button id="predictBtn">Predict Calories Burnt</button>
 
-  </script>
+<!-- In JavaScript -->
+<script>
+  document.getElementById("predictBtn").addEventListener("click", function () {
+    window.location.href = "result.html";
+  });
+</script>
+
 
 </body>
 </html>
