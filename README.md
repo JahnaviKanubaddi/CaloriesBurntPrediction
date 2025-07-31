@@ -8,11 +8,13 @@ To build a machine learning model that predicts the number of calories burned us
 **🧠 Key Steps Involved**
 
 1 . Data Collection & Preprocessing
+
   -- Used a structured dataset with user metrics and calories burnt data.
 
   -- Cleaned and normalized data using pandas for better model performance.
 
 2 . Model Training
+
   -- Applied machine learning algorithms such as:
 
         🔸 Linear Regression
@@ -25,6 +27,7 @@ To build a machine learning model that predicts the number of calories burned us
   -- Chose the best-performing model for deployment.
   
 3 . Web App Development
+
   -- Developed a web interface using Flask, where users input their data.
 
   -- Backend takes user inputs, passes them to the ML model, and returns predicted calories.
