@@ -2,9 +2,11 @@
 The Calories Burnt Prediction Project is a data science and web development initiative aimed at helping users estimate how many calories they burn during physical activity based on personal attributes and workout details.
 
 **🎯 Objective**
+
 To build a machine learning model that predicts the number of calories burned using inputs like age, gender, height, weight, duration of activity, etc., and to deploy it using a Flask web app.
 
 **🧠 Key Steps Involved**
+
 1 . Data Collection & Preprocessing
   -- Used a structured dataset with user metrics and calories burnt data.
 
